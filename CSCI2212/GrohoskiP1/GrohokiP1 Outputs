@@ -1,0 +1,119 @@
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ gcc -Wall -c GrohoskiP1.c              
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ gcc -Wall -c tools.c                   
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ gcc -o GrohoskiP1 tools.c GrohoskiP1.c             
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ ./GrohoskiP1
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Jan 31 2022  13:58:17
+----------------------------------------------------
+Program 1: List of Letters
+Enter up to 26 unique aplha characters
+Non alpha characters and repeats will be rejected
+Terminate with #:
+f
+F
+6
+k
+#
+
+Unique Alpha Characters:
+f k 
+
+
+Normal termination.
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ ./GrohoskiP1
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Jan 31 2022  14:09:48
+----------------------------------------------------
+Program 1: List of Letters
+Enter up to 26 unique aplha characters
+Non alpha characters and repeats will be rejected
+Terminate with #:
+#
+
+Unique Alpha Characters:
+
+
+
+Normal termination.
+
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ ./GrohoskiP1
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Jan 31 2022  14:09:54
+----------------------------------------------------
+Program 1: List of Letters
+Enter up to 26 unique aplha characters
+Non alpha characters and repeats will be rejected
+Terminate with #:
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+
+Unique Alpha Characters:
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+
+
+Normal termination.
+
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ ./GrohoskiP1
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Jan 31 2022  14:10:21
+----------------------------------------------------
+Program 1: List of Letters
+Enter up to 26 unique aplha characters
+Non alpha characters and repeats will be rejected
+Terminate with #:
+a 
+a
+b
+B
+c
+8
+9
+.
+u
+/
+C
+#
+
+Unique Alpha Characters:
+a b c u 
+
+
+Normal termination.
+nathan@nathan-UX330UAR:~/C C++/GrohoskiP1$ 
+
