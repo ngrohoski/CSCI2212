@@ -1,0 +1,5 @@
+Amateurs should never try to invent a crypto system -- it just will 
+not be secure.   We must presume that an adversary has learned about 
+the system.   So a message must be secure even if the method by which 
+it was produced is well known. 
+

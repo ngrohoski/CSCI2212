@@ -1,0 +1,14 @@
+nathan@nathan-UX330UAR:~/CSCI2212/P3$ g++ GrohoskiP3.cpp tools.cpp -o GrohoskiP3
+nathan@nathan-UX330UAR:~/CSCI2212/P3$ ./GrohoskiP3
+
+--------------------------------------------------------
+        Nathan Grohoski
+        CSCI 2212
+        Tue Feb 22 2022 14:49:08
+--------------------------------------------------------
+        Program 3: Little brown dog
+--------------------------------------------------------
+Output will print to out.txt
+The file will be created in the location of the Program
+
+Normal termination. 

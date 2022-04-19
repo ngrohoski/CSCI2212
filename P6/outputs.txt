@@ -1,0 +1,14 @@
+nathan@nathan-UX330UAR:~/CSCI2212/P6$ c++ GrohoskiP6.cpp tools.cpp -o P6
+nathan@nathan-UX330UAR:~/CSCI2212/P6$ ./P6
+
+--------------------------------------------------------
+        Nathan Grohoski
+        CSCI 2212
+        Wed Mar 30 2022 11:01:50
+--------------------------------------------------------
+        Program 6: A Hidden Message
+--------------------------------------------------------
+Messaged Decypher and output to message.txt
+
+Normal termination.
+

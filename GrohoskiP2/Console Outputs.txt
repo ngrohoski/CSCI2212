@@ -1,0 +1,70 @@
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ gcc -Wall -c GrohoskiP2.c
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ gcc -Wall -c tools.c
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ gcc -o GrohoskiP2 tools.c GrohoskiP2.c
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ ./GrohoskiP2
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Feb 14 2022  12:10:37
+----------------------------------------------------
+        Program 2: Search and Replace
+----------------------------------------------------
+
+Enter the path of the Input file: in.txt
+Input File: in.txt
+
+Enter the path of the Output file: out.txt
+Output File: out.txt
+
+Enter the desired key word of max 15 chars: Genghis
+Enter the desired replacement word of max 15 chars: Chinggis
+
+Search for: Genghis
+Replace with: Chinggis
+
+Normal termination.
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ ./GrohoskiP2
+//-----------------------------------------------------------------------------
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Mon Feb 14 2022  12:11:05
+----------------------------------------------------
+        Program 2: Search and Replace
+----------------------------------------------------
+
+Enter the path of the Input file: n.txt
+
+Cannot open file
+
+
+
+Press '.' and 'Enter' to continue.
+//-----------------------------------------------------------------------------
+
+nathan@nathan-UX330UAR:~/CSCI2212/GrohoskiP2$ ./GrohoskiP2
+
+----------------------------------------------------
+        Nathan Grohoski 
+        CSCI 2212 
+        Tue Feb 15 2022  11:09:10
+----------------------------------------------------
+        Program 2: Search and Replace
+----------------------------------------------------
+
+Enter the path of the Input file: in2.txt
+Input File: in2.txt
+
+Enter the path of the Output file: out2.txt
+Output File: out2.txt
+
+Enter the desired key word of max 15 chars: Vasher
+Enter the desired replacement word of max 15 chars: Zahel
+
+Search for: Vasher
+Replace with: Zahel
+
+Normal termination.
+
