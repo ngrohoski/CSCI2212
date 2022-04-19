@@ -1,0 +1,66 @@
+Using 1 million new ints:
+
+760570
+760580
+760590
+760600
+760610
+760620
+760630
+760640
+760650
+760660
+760670
+760680
+760690
+760700
+760710
+760720
+760730
+760740
+760750
+760760
+760770
+760780
+760790
+760800
+760810
+Killed
+
+As the program approaches 70k iterations the whole computer slows down, lagging music/video, and eventually terminates with 'Killed'
+'Killed' is output when gcc runs out of memory
+
+Using 1 billion new ints:
+
+34950
+34960
+34970
+34980
+34990
+35000
+35010
+35020
+35030
+35040
+35050
+35060
+35070
+35080
+35090
+35100
+35110
+35120
+35130
+35140
+35150
+35160
+35170
+35180
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+
+The program ends much sooner with the larger block of ints as expected, but interestingly it gives off a different error
+This seems to show that it actually catches the bad_alloc before it causes problems, note the computer doesn't slow down, as apposed to just running out of memory
+
+I am unsure of why 1 million run didn't catch the error and instead proceeds until it runs out of memory
